@@ -8,6 +8,11 @@ $vm_ip_address  = "44.44.44.10"
 $vm_http_port   = 80
 $host_http_port = 8080
 
+# Override any of the above settings for your local environment
+if(File.file?("config.local.rb"))
+  require_relative 'config.local.rb'
+end
+
 Vagrant.configure("2") do |config|
   config.vm.box = "stubbornella"
 

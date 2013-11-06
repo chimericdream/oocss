@@ -26,6 +26,10 @@
 *.sql
 *.sqlite
 
+# Config files #
+################
+config.local.rb
+
 # OS generated files #
 ######################
 .DS_Store*

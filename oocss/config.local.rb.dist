@@ -1,0 +1,7 @@
+# Duplicate to config.local.rb to activate. Override the variables set in the Vagrantfile to tweak your local VM.
+
+#$vm_memory      = "384"
+#$vm_cpus        = "1"
+#$vm_ip_address  = "44.44.44.10"
+#$vm_http_port   = 80
+#$host_http_port = 8080
